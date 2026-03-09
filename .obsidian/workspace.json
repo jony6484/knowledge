@@ -13,31 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Linux/Create a Linux Desktop App.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Create a Linux Desktop App"
             }
-          }
-        ]
-      },
-      {
-        "id": "d3ffa955cefa26bd",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "6341a790df32c1f9",
+            "id": "90bd3ead1602629c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Add user to sudo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Add user to sudo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#sudo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,8 +199,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "5a12eae1cbab5507",
+  "active": "90bd3ead1602629c",
   "lastOpenFiles": [
+    "Linux/Create a Linux Desktop App.md",
+    "Linux/Add user to sudo.md",
     "Welcome.md"
   ]
 }

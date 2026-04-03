@@ -9,7 +9,7 @@ apt install samba -y
 ```bash
 mkdir -p /mnt/shared
 chmod 777 /mnt/shared
-bash
+```
 ## Step 3 – Create a Samba user
 ```bash
 smbpasswd -a youruser

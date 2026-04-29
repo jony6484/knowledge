@@ -1,0 +1,32 @@
+Using a docker compose file:
+```yaml
+  
+services:
+  physicsnemo:
+    image: nvcr.io/nvidia/physicsnemo/physicsnemo:26.03
+    container_name: physicsnemo-dev-2603
+    restart: unless-stopped
+
+    tty: true
+    stdin_open: true
+
+    runtime: nvidia
+
+    shm_size: 1g
+
+    ulimits:
+      memlock: -1
+      stack: 67108864
+
+    volumes:
+      - ./domino_data:/workspace/domino_data
+      - ./domino_code:/workspace/domino
+
+    working_dir: /workspace/domino
+
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+
+    command: tail -f /dev/null
+```

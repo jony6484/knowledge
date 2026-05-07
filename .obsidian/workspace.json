@@ -25,17 +25,14 @@
             "id": "bdf0d58b00f3d8b1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "DoMINO/Preprocess Scripts.canvas",
-                "viewState": {
-                  "x": -1815.4542330899765,
-                  "y": -2468.5788082482695,
-                  "zoom": 1
-                }
+                "file": "DoMINO/Training.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Preprocess Scripts"
+              "icon": "lucide-file",
+              "title": "Training"
             }
           }
         ],
@@ -203,6 +200,7 @@
   },
   "active": "bdf0d58b00f3d8b1",
   "lastOpenFiles": [
+    "DoMINO/Preprocess Scripts.canvas",
     "Docker/Working With Images.md",
     "Docker/Basics.md",
     "Linux/Create a Linux Desktop App.md",

@@ -10,6 +10,14 @@ python train.py
 
 # Override specific config values without editing the file:
 python train.py exp_tag=2 train.epochs=500
+
+# Ovveride config location:
+python ./cfdai/ntop_pipeline/train.py 
+--config-path "/workspace/domino/cfdai/src/conf/"
+--config-name "config" 
+exp_tag=0 
+train.epochs=500
+
 ```
 
 ### Key config parameters

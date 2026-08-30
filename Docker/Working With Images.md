@@ -2,6 +2,11 @@
 ```bash
 docker save -o image_file.tar image_name:tag
 ```
+## spit it:
+```bash
+```bash
+docker save image_name:tag | split -b 2500M -d -"docker_image.tar.part"
+```
 
 ### Build image from DOCKERFILE
 inside a directory
